@@ -1,0 +1,25 @@
+data: [
+	"hoi ik ben een string",
+	"hoi ik ben een string",
+	"hoi ik ben een string"
+]
+
+scene:[
+	name: ["main hoi"]
+	objects: [
+		player: [
+			x: [20]
+			y: [40]
+			z: [10]
+			inventory: [1,20, 40, 102]
+		]
+		frog_enemy: [
+			x: [20]
+			y: [0]
+			z: [90]
+		]
+		inlineObject: [ x: [20] ]
+	]
+]
+
+name: [Jesse]

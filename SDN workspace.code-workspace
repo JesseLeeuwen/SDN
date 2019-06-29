@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "./src"
+		},
+		{
+			"path": "test"
+		},
+		{
+			"name": "SDN",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
