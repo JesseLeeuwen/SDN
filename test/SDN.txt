@@ -4,6 +4,7 @@ data: [
 	"hoi ik ben een string"
 ]
 
+# nesting tokens
 scene:[
 	name: ["main hoi"]
 	objects: [
