@@ -1,12 +1,14 @@
 # Simple Data Notation (SDN)
 
 Simple Data Notation started as a project to create a library that used regularexpressions that could be used in small projects. The initial setup for SDN was a simple setup without nesting. This is a more robust version with nesting. SDN was not created with amazing performance in mind, It is a test project to experiement with regex with a gaol in mind.
+SDN builds a dll that you can link into your .net projects
+`SDN is made for .netcore 2.2`
 
 ## performance
 
 testing is done with this [file](test/SDN.txt)
 
-> the avarage performance seems ok. The first time a document is parsed or value read the time to execute so is much higher.
+> the avarage performance seems ok, But the first time a document is parsed or a value is read the time to execute is much higher.
 
 Test (done 2000 times)  | Result in seconds | Avarage in seconds
 ---- | ------ | -------
