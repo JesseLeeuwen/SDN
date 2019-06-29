@@ -3,7 +3,8 @@
 Simple Data Notation started as a project to create some library that could be used 
 in small projects. The initial setup for sdn was a simple setup without nesting. This is a more robust version with nesting.
 
-'''
+##SDN format
+```javascript
 data: [
     "This is a piece of text",
     "this is a piece of text"
@@ -30,4 +31,4 @@ scene: [
         ]
     ]
 ]
-'''
+```
