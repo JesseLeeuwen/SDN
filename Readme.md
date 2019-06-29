@@ -17,7 +17,7 @@ read non nested value | 00.0270664s | 00.0000135s
 parse test file | 01.1476503s | 00.0006127s
 
 
-##SDN format
+## SDN format
 ```
 # strings: captures everything between ""
 data: [
