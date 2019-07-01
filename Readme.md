@@ -8,13 +8,11 @@ SDN builds a dll that you can link into your .net projects
 
 testing is done with this [file](test/SDN.txt)
 
-> the avarage performance seems ok, But the first time a document is parsed or a value is read the time to execute is much higher.
-
 Test (done 2000 times)  | Result in seconds | Avarage in seconds
 ---- | ------ | -------
-read nesting value | 00.0584721s | 00.0000325s
-read non nested value | 00.0270664s | 00.0000135s
-parse test file | 01.1476503s | 00.0006127s
+parse test file | 00.4240570s | 00.0002120s
+read nesting value | 00.4240570s | 00.0002120s
+read non nested value | 00.0055955s | 0.0000028s
 
 
 ## SDN format
@@ -55,3 +53,15 @@ scene: [
 - [x] get tokens with a path (scene.objects.player) 
 - [ ] typing
 - [ ] fix parse performance
+
+## Takeaways
+- do's and dont's with regular expressions
+- making shared libraries with .netcore
+- How to optimize a regular expression
+
+## Credits
+
+- https://www.rexegg.com/regex-optimizations.html
+- https://www.loggly.com/blog/regexes-the-bad-better-best/
+
+
